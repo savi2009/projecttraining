@@ -1,0 +1,132 @@
+GIT :-
+ 
+   Share files and collaborate within team   
+  - keep track of changes like
+    who made changes
+    when changes made
+    why
+    what changes 
+    
+   SVN/SCM/DVCS
+
+Git:-  Open source tool
+      - Linus Torvald 2005
+      - e.g.  bitbucket, gitlab, git, github
+
+Features:- 
+         1. open source
+         2. flexible
+         3. collaborate
+         4. maintains diff versions of same file
+         5. isolation of chages
+         6. code review 
+         7. compare between commits
+         8. backup/archieve of project
+         9. experimentation
+ 
+
+
+** git for diff teams ??
+      hr ??
+      mktg ??
+      developer ??
+
+
+To install git 
+$sudo apt install git
+ password:
+ yes to install
+
+  
+Any dir folder is acting as git repo when its initilized with  git
+to create dir
+$mkdir pr
+$cd pr
+$git init
+$ls -a
+>> shows .git directory
+
+
+Configuration details of user are stored in 
+~/.gitconfig
+
+
+To clone remote repo into local system
+$git clone it clone https://github.com/savi2009/projecttraining.git
+
+>> create dir projecttraining
+$cd projecttraining
+$ls
+ >> files and all from remote repo is copied 
+
+Create new file or edit existing file
+To add file into stage area
+$git add filename
+
+To commit 
+$git commit -m "commit message"
+
+
+To push changes to remote system
+we need to configure(store in system) username and password(token)
+
+$git config --global user.name "username"
+$git config --global user.email "email_id"
+
+Generate token and keep it handy
+$git config --global credential.helper store
+
+To push to remote repo
+$git push
+username
+pasword: provide here token
+
+changes will be pushed into remote repo
+
+
+** verify from github**
+
+ 
+Again create or modify some files      
+stage them
+
+check git status
+$git status
+
+to see staged files
+$ git ls-files -s
+
+To restore  staged file
+$ git restore --staged firstfile.txt
+
+to list history
+$git log
+
+to get back to perticular commit id
+$git checkout <commit_id>
+
+
+To list recent 2 logs
+$git log -2
+
+To get logs of author ubuntu
+$git log --author="ubuntu"
+
+To get logs from commit messages
+$git log grep="message"
+
+To see what was there at commit_id 
+$git show <commit_id>
+
+
+
+
+
+      
+
+
+ 
+   
+ 
+   
+   
