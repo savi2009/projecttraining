@@ -1,3 +1,2 @@
-this is git file 
-this is second line
+This is the second file for the day.
 
