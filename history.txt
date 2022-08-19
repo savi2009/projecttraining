@@ -1,0 +1,778 @@
+    1  ls
+    2  ?
+    3  help
+    4  help -dms
+    5  dms
+    6  sudo 
+    7  sudo 0h
+    8  sudo -h
+    9  help sudo
+   10  help -sudo
+   11  help help
+   12  cls
+   13  clear
+   14  exit
+   15  apt
+   16  pwd
+   17  mkdir pr
+   18  ls pr
+   19  ls -a pr
+   20  cd pr /
+   21  cd pr/
+   22  git init
+   23  ls -a
+   24  git init
+   25  suo apt install git
+   26  sudo apt install git
+   27  git init
+   28  ls -a
+   29  ls .git
+   30  ls .git/objects/
+   31  ls .git/objects/info/
+   32  ls
+   33  cd
+   34  cd..
+   35  cd.
+   36  pwd
+   37  ls /home/
+   38  ls /home/selva/
+   39  cls
+   40  clr
+   41  clear
+   42  ls ~
+   43  ls -a ~
+   44  la -a ~/.profile 
+   45  sudo
+   46  sudo -h
+   47  sudo help
+   48  help suod
+   49  help sudo
+   50  info sudo
+   51  ls
+   52  desktop
+   53  cd desktop
+   54  [17:24] Mark Richardson
+   55  git clone https://github.com/savi2009/projecttraining.git
+   56  ls
+   57  ls -a
+   58  desktop-file-
+   59  cd 
+   60  de
+   61  cd desktop
+   62  cd desktop/
+   63  cd /desktop/
+   64  cd desktop
+   65  ls
+   66  desktop
+   67  help Cd
+   68  man -k cd
+   69  man CD
+   70  /desktop
+   71  ls
+   72  cd /desktop
+   73  pwd
+   74  cd /home/selva/desktop
+   75  cd /home/selva/
+   76  cd /home/selva/pr
+   77  ls
+   78  la -a
+   79  la -a .git/
+   80  clear
+   81  man github
+   82  man git
+   83  man wget
+   84  git --help 
+   85  git clone --help
+   86  git clone https://github.com/selvaa2092/selvaa2092.git
+   87  git clone https://github.com/savi2009/projecttraining.git
+   88  git commit 
+   89  git config --global user.name selvaa2092
+   90  git status
+   91  git
+   92  git add
+   93  gti add .
+   94  git add
+   95  git ls
+   96  ls
+   97  git
+   98  ls ~
+   99  ls
+  100  git ls-files -s
+  101  prove
+  102  cd projecttraining/
+  103  ls
+  104  cat firstfile.txt 
+  105  vi firstfile.txt 
+  106  git commit -am "done"
+  107  git config --global user.name selvaa2092
+  108  git commit -am "done"
+  109  git config --global user.name selvaa2092
+  110  git pull origin master
+  111  git config --global user.email "selvaa2092@gmail.com"
+  112  git commit -am "done"
+  113  cat firstfile.txt 
+  114  vi firstfile.txt 
+  115  cat firstfile.txt 
+  116  git commit -m
+  117  git commit -m "done"
+  118  git push
+  119  git commit -m "done"
+  120  git push
+  121  exit
+  122  git
+  123  git init
+  124  cs sample-project
+  125  cd sample-project
+  126  git --version
+  127  git config --global user.email "selvaa2092@gmail.com"
+  128  git config --global credential.helper store
+  129  git pull
+  130  ls
+  131  cd pr
+  132  ls
+  133  cd projecttraining/
+  134  ls
+  135  git clone https://github.com/savi2009/projecttraining.git
+  136  ls
+  137  cd projecttraining/
+  138  ls
+  139  git checkout -b selva_file
+  140  ls
+  141  cd
+  142  ls
+  143  cd projecttraining/
+  144  ls
+  145  cd 
+  146  cd pr
+  147  ls
+  148  cd projecttraining/
+  149  ls
+  150  cd projecttraining/
+  151  ls
+  152  git checkout -b selva_file
+  153  git commit -am "selva file is ready"
+  154  git push  origin selva_file 
+  155  host github.com
+  156  hostnama ssh.github.com
+  157  hostname ssh.github.com
+  158  cd
+  159  hostname ssh.github.com
+  160  vi ~/.ssh/config
+  161  cat ~/.ssh/config
+  162  $ ssh -T git@github.com
+  163  ssh -T git@github.com
+  164  git clone https://github.com/savi2009/projecttraining.git
+  165  cd 
+  166  ls
+  167* cd /pr//
+  168  cd /pr/
+  169  cd pr
+  170  ls
+  171  cd projecttraining/
+  172  ls -a
+  173  cd projecttraining/
+  174  ls
+  175  git status
+  176  git stage
+  177* git add 
+  178  git add selva
+  179  git add practice.txt 
+  180  git status
+  181  git confih
+  182  git config
+  183  git config --global user.name "selvaa2092"
+  184  git add test1_selva
+  185  ls
+  186  git add gitfile.txt 
+  187  git commit -m "test commit selva"
+  188  git diff
+  189  git show
+  190  git log
+  191  git branch test_selva
+  192  git checkout test_selva
+  193  git push
+  194  git push --set-upstream origin test_selva
+  195  git commit -m "selva_text"
+  196  git push
+  197  ls
+  198  vi firstfile.txt 
+  199  cls
+  200  clear
+  201  cd
+  202  ls
+  203  cd Desktop/
+  204  git clone https://github.com/savi2009/projecttraining.git
+  205  ls
+  206  cd projecttraining/
+  207  ls
+  208  ls -1
+  209  git log
+  210  ls
+  211  clear
+  212  git diff
+  213  git file ls
+  214  git file -ls
+  215  git ls-files
+  216  git ls-files -s
+  217  git status
+  218  vi firstfile.txt 
+  219  nano firstfile.txt 
+  220  cat firstfile.txt 
+  221  git add firstfile.txt 
+  222  git ls-files -s
+  223  git ls-files
+  224  clear
+  225  git diff
+  226  git status
+  227  git diff
+  228  git diff --staged
+  229  git commit 
+  230  git diff --staged
+  231  git push 
+  232  git log
+  233  clear
+  234  git show 27be800a615
+  235  clear
+  236  git status
+  237  ls
+  238  nano gitfile.txt 
+  239  git status
+  240  git diff --staged
+  241  git log -1
+  242  git diff --staged 0d6920eb
+  243  git diff 0d6920eb
+  244  ls
+  245  nano practice.txt 
+  246  git diff 0d6920eb
+  247  clear
+  248  git add .
+  249  git diff --staged 
+  250  git status
+  251  git commit 
+  252  git status
+  253  clear
+  254  git log -2
+  255  git diff 0d6920eb 014c95
+  256  git log -3
+  257  git diff 0d6920eb 27be800
+  258  git diff 0d6920e 014c95f
+  259  git push 
+  260  clear
+  261  ls
+  262  nano gitfile.txt 
+  263  cat gitfile.txt 
+  264  git add gitfile.txt 
+  265  nano gitfile.txt 
+  266  cat gitfile.txt 
+  267  git staus
+  268  git status
+  269  cat gitfile.txt 
+  270  clear
+  271  git reset HEAD gitfile.txt
+  272  cat gitfile.txt 
+  273  git ls-files
+  274  git status
+  275  git ls-files -s
+  276  git cat-files
+  277  git cat-file 5a20332
+  278  clear
+  279  git status
+  280  git add
+  281  git add gitfile.txt 
+  282  git status 
+  283  cat gitfile.txt 
+  284  git reset HEAD gitfile.txt
+  285  git status 
+  286  clear
+  287  git checkout gitfile.txt
+  288  cat gitfile.txt 
+  289  git logs
+  290  git log
+  291  ls
+  292  clear
+  293  git checkout fc61407846fe
+  294  ls
+  295  cat gitfile.txt 
+  296  cat firstfile.txt 
+  297  git log
+  298  clear
+  299  git pull
+  300  git remote -v
+  301  git pull origin main
+  302  ls
+  303  history
+  304  clear
+  305  ls
+  306  nano 1
+  307  nano firstfile.txt 
+  308  cat firstfile.txt 
+  309  git add firstfile.txt 
+  310  git status
+  311  git rm firstfile.txt 
+  312  git rm firstfile.txt -f
+  313  ls
+  314  git push
+  315  git push origin HEAD:main
+  316  ls
+  317  git diff firstfile.txt
+  318  git log
+  319  git diff 014c95f03c1
+  320  clear
+  321  git commit -m -a "firstfile is deleted"
+  322  git commit -a -m  "firstfile is deleted"
+  323  git push 
+  324  git push origin HEAD:main
+  325  clear
+  326  ls
+  327  mv gitfile.txt 
+  328  mv gitfile.txt getfile.txt
+  329  ls
+  330  git commit
+  331  git commit -a -m "File is renamed"
+  332  git log --follow
+  333  git log --follow getfile.txt
+  334  git log --follow gitfile.txt
+  335  git log --follow getfile.txt
+  336  mv getfile.txt gitfile.txt
+  337  git log --follow getfile.txt
+  338  git log --gitfile.txt
+  339  git log --follow gitfile.txt
+  340  git push
+  341  clear
+  342  git push
+  343  git push origin HEAD:main
+  344  git push
+  345  ls
+  346  git commit -a -m "File is renamed"
+  347  git push
+  348  git push origin HEAD:main
+  349  ls
+  350  clear
+  351  ls
+  352  git log
+  353  clear
+  354  git checkout a8fccb6e
+  355  ls
+  356  git log
+  357  clear
+  358  git log
+  359  git checkout 7835d449
+  360  clear
+  361  ls
+  362  git log
+  363  git checkout 014c95f03
+  364  git commit
+  365  clear
+  366  git add gitfile.txt 
+  367  git commit -m "This the new file again"
+  368  ls
+  369  git checkout 014c95f03
+  370  ls
+  371  git log --follow firstfile.txt
+  372  mv firstfile.txt abc.txt
+  373  git commit -a -m "first file is renamed to ABC"
+  374  ls
+  375  git log --follow firstfile.txt
+  376  git log --follow abc.txt
+  377  cat abc.txt 
+  378  git push 
+  379  git push origin HEAD:main
+  380  git pull
+  381  git pull Origin main
+  382  git pull Origin Head:main
+  383  git pull Origin:main
+  384  git remote -v
+  385  git pull https://github.com/savi2009/projecttraining.git 
+  386  history
+  387  history >> history.txt 
+    1  ls
+    2  ?
+    3  help
+    4  help -dms
+    5  dms
+    6  sudo 
+    7  sudo 0h
+    8  sudo -h
+    9  help sudo
+   10  help -sudo
+   11  help help
+   12  cls
+   13  clear
+   14  exit
+   15  apt
+   16  pwd
+   17  mkdir pr
+   18  ls pr
+   19  ls -a pr
+   20  cd pr /
+   21  cd pr/
+   22  git init
+   23  ls -a
+   24  git init
+   25  suo apt install git
+   26  sudo apt install git
+   27  git init
+   28  ls -a
+   29  ls .git
+   30  ls .git/objects/
+   31  ls .git/objects/info/
+   32  ls
+   33  cd
+   34  cd..
+   35  cd.
+   36  pwd
+   37  ls /home/
+   38  ls /home/selva/
+   39  cls
+   40  clr
+   41  clear
+   42  ls ~
+   43  ls -a ~
+   44  la -a ~/.profile 
+   45  sudo
+   46  sudo -h
+   47  sudo help
+   48  help suod
+   49  help sudo
+   50  info sudo
+   51  ls
+   52  desktop
+   53  cd desktop
+   54  [17:24] Mark Richardson
+   55  git clone https://github.com/savi2009/projecttraining.git
+   56  ls
+   57  ls -a
+   58  desktop-file-
+   59  cd 
+   60  de
+   61  cd desktop
+   62  cd desktop/
+   63  cd /desktop/
+   64  cd desktop
+   65  ls
+   66  desktop
+   67  help Cd
+   68  man -k cd
+   69  man CD
+   70  /desktop
+   71  ls
+   72  cd /desktop
+   73  pwd
+   74  cd /home/selva/desktop
+   75  cd /home/selva/
+   76  cd /home/selva/pr
+   77  ls
+   78  la -a
+   79  la -a .git/
+   80  clear
+   81  man github
+   82  man git
+   83  man wget
+   84  git --help 
+   85  git clone --help
+   86  git clone https://github.com/selvaa2092/selvaa2092.git
+   87  git clone https://github.com/savi2009/projecttraining.git
+   88  git commit 
+   89  git config --global user.name selvaa2092
+   90  git status
+   91  git
+   92  git add
+   93  gti add .
+   94  git add
+   95  git ls
+   96  ls
+   97  git
+   98  ls ~
+   99  ls
+  100  git ls-files -s
+  101  prove
+  102  cd projecttraining/
+  103  ls
+  104  cat firstfile.txt 
+  105  vi firstfile.txt 
+  106  git commit -am "done"
+  107  git config --global user.name selvaa2092
+  108  git commit -am "done"
+  109  git config --global user.name selvaa2092
+  110  git pull origin master
+  111  git config --global user.email "selvaa2092@gmail.com"
+  112  git commit -am "done"
+  113  cat firstfile.txt 
+  114  vi firstfile.txt 
+  115  cat firstfile.txt 
+  116  git commit -m
+  117  git commit -m "done"
+  118  git push
+  119  git commit -m "done"
+  120  git push
+  121  exit
+  122  git
+  123  git init
+  124  cs sample-project
+  125  cd sample-project
+  126  git --version
+  127  git config --global user.email "selvaa2092@gmail.com"
+  128  git config --global credential.helper store
+  129  git pull
+  130  ls
+  131  cd pr
+  132  ls
+  133  cd projecttraining/
+  134  ls
+  135  git clone https://github.com/savi2009/projecttraining.git
+  136  ls
+  137  cd projecttraining/
+  138  ls
+  139  git checkout -b selva_file
+  140  ls
+  141  cd
+  142  ls
+  143  cd projecttraining/
+  144  ls
+  145  cd 
+  146  cd pr
+  147  ls
+  148  cd projecttraining/
+  149  ls
+  150  cd projecttraining/
+  151  ls
+  152  git checkout -b selva_file
+  153  git commit -am "selva file is ready"
+  154  git push  origin selva_file 
+  155  host github.com
+  156  hostnama ssh.github.com
+  157  hostname ssh.github.com
+  158  cd
+  159  hostname ssh.github.com
+  160  vi ~/.ssh/config
+  161  cat ~/.ssh/config
+  162  $ ssh -T git@github.com
+  163  ssh -T git@github.com
+  164  git clone https://github.com/savi2009/projecttraining.git
+  165  cd 
+  166  ls
+  167* cd /pr//
+  168  cd /pr/
+  169  cd pr
+  170  ls
+  171  cd projecttraining/
+  172  ls -a
+  173  cd projecttraining/
+  174  ls
+  175  git status
+  176  git stage
+  177* git add 
+  178  git add selva
+  179  git add practice.txt 
+  180  git status
+  181  git confih
+  182  git config
+  183  git config --global user.name "selvaa2092"
+  184  git add test1_selva
+  185  ls
+  186  git add gitfile.txt 
+  187  git commit -m "test commit selva"
+  188  git diff
+  189  git show
+  190  git log
+  191  git branch test_selva
+  192  git checkout test_selva
+  193  git push
+  194  git push --set-upstream origin test_selva
+  195  git commit -m "selva_text"
+  196  git push
+  197  ls
+  198  vi firstfile.txt 
+  199  cls
+  200  clear
+  201  cd
+  202  ls
+  203  cd Desktop/
+  204  git clone https://github.com/savi2009/projecttraining.git
+  205  ls
+  206  cd projecttraining/
+  207  ls
+  208  ls -1
+  209  git log
+  210  ls
+  211  clear
+  212  git diff
+  213  git file ls
+  214  git file -ls
+  215  git ls-files
+  216  git ls-files -s
+  217  git status
+  218  vi firstfile.txt 
+  219  nano firstfile.txt 
+  220  cat firstfile.txt 
+  221  git add firstfile.txt 
+  222  git ls-files -s
+  223  git ls-files
+  224  clear
+  225  git diff
+  226  git status
+  227  git diff
+  228  git diff --staged
+  229  git commit 
+  230  git diff --staged
+  231  git push 
+  232  git log
+  233  clear
+  234  git show 27be800a615
+  235  clear
+  236  git status
+  237  ls
+  238  nano gitfile.txt 
+  239  git status
+  240  git diff --staged
+  241  git log -1
+  242  git diff --staged 0d6920eb
+  243  git diff 0d6920eb
+  244  ls
+  245  nano practice.txt 
+  246  git diff 0d6920eb
+  247  clear
+  248  git add .
+  249  git diff --staged 
+  250  git status
+  251  git commit 
+  252  git status
+  253  clear
+  254  git log -2
+  255  git diff 0d6920eb 014c95
+  256  git log -3
+  257  git diff 0d6920eb 27be800
+  258  git diff 0d6920e 014c95f
+  259  git push 
+  260  clear
+  261  ls
+  262  nano gitfile.txt 
+  263  cat gitfile.txt 
+  264  git add gitfile.txt 
+  265  nano gitfile.txt 
+  266  cat gitfile.txt 
+  267  git staus
+  268  git status
+  269  cat gitfile.txt 
+  270  clear
+  271  git reset HEAD gitfile.txt
+  272  cat gitfile.txt 
+  273  git ls-files
+  274  git status
+  275  git ls-files -s
+  276  git cat-files
+  277  git cat-file 5a20332
+  278  clear
+  279  git status
+  280  git add
+  281  git add gitfile.txt 
+  282  git status 
+  283  cat gitfile.txt 
+  284  git reset HEAD gitfile.txt
+  285  git status 
+  286  clear
+  287  git checkout gitfile.txt
+  288  cat gitfile.txt 
+  289  git logs
+  290  git log
+  291  ls
+  292  clear
+  293  git checkout fc61407846fe
+  294  ls
+  295  cat gitfile.txt 
+  296  cat firstfile.txt 
+  297  git log
+  298  clear
+  299  git pull
+  300  git remote -v
+  301  git pull origin main
+  302  ls
+  303  history
+  304  clear
+  305  ls
+  306  nano 1
+  307  nano firstfile.txt 
+  308  cat firstfile.txt 
+  309  git add firstfile.txt 
+  310  git status
+  311  git rm firstfile.txt 
+  312  git rm firstfile.txt -f
+  313  ls
+  314  git push
+  315  git push origin HEAD:main
+  316  ls
+  317  git diff firstfile.txt
+  318  git log
+  319  git diff 014c95f03c1
+  320  clear
+  321  git commit -m -a "firstfile is deleted"
+  322  git commit -a -m  "firstfile is deleted"
+  323  git push 
+  324  git push origin HEAD:main
+  325  clear
+  326  ls
+  327  mv gitfile.txt 
+  328  mv gitfile.txt getfile.txt
+  329  ls
+  330  git commit
+  331  git commit -a -m "File is renamed"
+  332  git log --follow
+  333  git log --follow getfile.txt
+  334  git log --follow gitfile.txt
+  335  git log --follow getfile.txt
+  336  mv getfile.txt gitfile.txt
+  337  git log --follow getfile.txt
+  338  git log --gitfile.txt
+  339  git log --follow gitfile.txt
+  340  git push
+  341  clear
+  342  git push
+  343  git push origin HEAD:main
+  344  git push
+  345  ls
+  346  git commit -a -m "File is renamed"
+  347  git push
+  348  git push origin HEAD:main
+  349  ls
+  350  clear
+  351  ls
+  352  git log
+  353  clear
+  354  git checkout a8fccb6e
+  355  ls
+  356  git log
+  357  clear
+  358  git log
+  359  git checkout 7835d449
+  360  clear
+  361  ls
+  362  git log
+  363  git checkout 014c95f03
+  364  git commit
+  365  clear
+  366  git add gitfile.txt 
+  367  git commit -m "This the new file again"
+  368  ls
+  369  git checkout 014c95f03
+  370  ls
+  371  git log --follow firstfile.txt
+  372  mv firstfile.txt abc.txt
+  373  git commit -a -m "first file is renamed to ABC"
+  374  ls
+  375  git log --follow firstfile.txt
+  376  git log --follow abc.txt
+  377  cat abc.txt 
+  378  git push 
+  379  git push origin HEAD:main
+  380  git pull
+  381  git pull Origin main
+  382  git pull Origin Head:main
+  383  git pull Origin:main
+  384  git remote -v
+  385  git pull https://github.com/savi2009/projecttraining.git 
+  386  history
+  387  history >> history.txt 
+  388* git push 
+  389  git push origin HEAD:main
+  390  ls
+  391  history >> history.txt
