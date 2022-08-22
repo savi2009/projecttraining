@@ -1,0 +1,193 @@
+Ansible:-
+
+    - open source tool
+    - redhat and community editions
+    - configuration management
+    - provisioning
+
+
+Ansible adv:-
+  1. Simple to configure and use
+  2. robust
+  3. powerful to app deploy
+  4. Agentless : to communicate with targets does not need any additional                  application
+  5. Works on push base mechanism:- server will send instructions for                                          target
+  6. Only on server ansible package is required
+      so at time of change in ansible version; only server needs to be       changed
+
+  7. security as no agent is present on targets
+     - ssh based communication
+
+
+1. How to configure web-server in Linux ??
+   >> to get ip address web-server
+      $ip addr
+       >>192.168.1.6/24
+   
+  >> to assign user sudo previlleges
+       $ su -
+         root password:
+       #visudo
+        root    ALL=(ALL:ALL) ALL
+        username  ALL=(ALL:ALL) ALL
+     save and exit
+
+A. install package apache
+   Apache >> web-site hosting package/service
+ 
+  $sudo apt update
+  $sudo apt install -y apache2
+
+
+B. Service management
+ systemctl {status|start|stop|restart|enable|disable}  service_name
+ $sudo systemctl status apache2
+
+ to start apache2 service
+ $sudo systemctl start apache2
+
+C. Copy web-pages
+ 
+ create index-page or copy it from source
+ $sudo nano /var/www/hrml
+ $nano index.html
+ <html>
+ <title>welcome</title>
+ <h1> Ubuntu web-server</h1>
+ <Body bgcolor="pink">
+  <font color="blue"> <marquee>Hello world!!!! This is our Web- site</marquee>   </font>
+ </body>
+ </html>
+save and exit
+
+
+D. to verify if web-page is working
+firefox>>url>>ip_add of erver
+             http://192.168.1.6
+
+Access web-page from client using step-D
+
+
+***user-creation**
+to create user with name user1
+$sudo useradd -md /home/user1 -s /bin/shell user1
+to verify user creation
+$tail /etc/passwd
+>>check for last line
+
+to set password for user1
+$sudo passwd user1
+new password:
+retype password:
+
+done!!!
+
+
+*** SSH-service ***
+ secure Shell:- 
+To install openssh-server
+$apt install -y openssh-server
+
+to check status of sshd service
+$ systemctl status sshd
+
+to connect to target system using ssh
+ from server (192.168.1.11) to target 192.168.1.6
+$ssh 192.168.1.6
+password:
+
+we are connected to remote
+exit to disconnect
+
+To setup passwordless ssh connection
+from server
+$ssh-keygen
+default for filename and location : enter
+passphrase:enter
+retype passphrase:
+
+ppk files were generated and kept in 
+~/.ssh/id_rsa and ~/.ssh/id_rsa.pub
+
+** copy .pub file on remote system
+$ssh-copy-id -i ~/.ssh/id_rsa.pub 192.168.1.6
+password:
+
+to verify 
+$ssh 192.168.1.6 
+>> this time without password it should be connected
+exit
+
+To connect with another user(user1) using passwordless
+$ssh-copy-id -i ~/.ssh/id_rsa.pub user1@192.168.1.6
+password for user1:
+to verify
+$ssh user1@192.168.1.6 
+===================================================================
+
+
+
+To install ansible on server follow this link
+https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html#installing-ansible-on-ubuntu
+ 
+
+
+Lab Setup:-
+
+For server 
+Any linux flavoured O.S.
+
+Server = 192.168.1.11
+target(client) = 192.168.1.6
+
+on both systems
+we need
+ssh >>
+python >>
+
+
+For installation of Ansible
+
+
+
+** How >> /etc/ansible/ansible.cfg
+   what >> modules ( Ad-hoc or Playbook's)
+   Where >> targets info >> /etc/ansible/hosts >> inventory
+
+
+Ansible Modules:-
+       - Ready to use small programs(tools)
+       - used to execute task/operation on managed hosts
+       
+local system >> ansible-doc -l
+              
+all detailed documentation can be visited to ansible official documentation 
+https://docs.ansible.com/ansible/2.9/modules/list_of_commands_modules.html
+
+Modules are 
+    A. core modules: devekoped by ansible core team
+    B. extra modules: developed by ansible community
+    C. customized modules:- Any user can develop modules for his        requiremets
+
+To test setup
+ansible where -m modulename
+
+e.g. to execute ping module on all inventory available
+$ansible all -m ping
+
+
+ 
+
+
+
+
+
+
+
+
+  
+   
+
+ 
+    
+
