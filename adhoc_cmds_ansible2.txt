@@ -1,0 +1,76 @@
+Ansible
+web-server
+ssh-setup
+ 
+inventory >> /etc/ansible/hosts
+
+ansible all -m ping
+
+Modules:- 
+
+
+Ad-hoc commands:-
+          - quick execution
+          - one liner commands
+    
+
+to get complete details (fatcs) of remote system
+$ ansible targets -m setup
+
+$ ansible targets -m setup | grep ansible_os_family
+
+$ ansible targets -m setup | grep ansible_pkg_mgr
+
+$ ansible targets -m file -a "path=/tmp/data1 state=directory"
+
+$ ansible targets -m file -a "path=/tmp/t1.txt state=touch"
+
+$ ansible targets -m copy -a "src=t1.txt dest=/tmp"
+
+-K >> become user -b and -k =ask for password
+
+$ansible targets -m file -a "path=/tmp/file2.txt state=touch" -u ubuntu -K
+
+$ansible targets -m service -a "name=apache2 state=stopped" -K 
+
+$ansible targets -m apt -a "name=vsftpd state=present" -K 
+
+$ ansible targets -m shell -a "userdel user2" -u root -K
+
+$ ansible targets -m user -a "name=user4 state=absent" -K 
+
+
+
+Ansible Playbooks
+
+
+- All tasks executed in sequential order
+- one task at a time
+- Indentation is VIMP 
+- use only space bar (tabs not allowd)
+- File extension .yml or .yaml
+- quotes are not compulsory for tasks name
+- playbook starts with --- and ends with ...(not compulsoary)
+
+
+vi sample.yaml
+---
+  name: 
+  hosts: 
+
+  tasks:
+    - name: test connectivity
+      ping:
+
+To check if errors
+$ansible=playbook --syntax-check sample.yaml
+
+To dry-run
+$ansible=playbook --check sample.yaml
+
+
+
+
+
+
+
