@@ -1,0 +1,24 @@
+---
+- name : remove  apache from target system
+  hosts: targets
+  become: yes
+  become_user: root
+  gather_facts: no
+  ignore_errors: true
+
+  tasks:
+   - name: stop apache2 service
+     service:
+      name: apache2
+      state: stopped
+ 
+   - name: remove index file
+     file: 
+       path: /var/www/html/index.html
+       state: absent
+ 
+   - name: remove apache2
+     apt:
+      name: apache2
+      state: absent
+ 

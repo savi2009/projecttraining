@@ -1,0 +1,12 @@
+---
+- name: collect infor of remote system
+  hosts: all
+  gather_facts: yes
+
+  tasks:
+  - name: get OS name
+    debug:
+        msg: 
+             - vm {{ ansible_os_family }}
+             - name {{ ansible_nodename }}
+             - pkg manager {{ ansible_pkg_mgr }}

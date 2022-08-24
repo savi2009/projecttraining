@@ -1,0 +1,36 @@
+---
+- name: web-server install
+  hosts: targets
+  become: yes
+  become_user: root
+  gather_facts: no
+  ignore_errors: true
+
+    
+  tasks:
+   - name: install apache2 package
+     apt:
+      name: apache2
+      state: present
+     #ignore_errors: true
+     tags: i-apache2 
+
+   - name: Start apache2 service
+     service:
+       name: apache2
+       state: started
+     #ignore_errors: true
+     tags: s-apache2
+          
+   - name: copy
+     copy:
+       src: index.html
+       dest: /var/www/html
+    # ignore_errors: true
+     tags: c-apache2
+
+   - name:  Restart apache2 service
+     service:
+       name: apache2
+       state: restarted 
+    # ignore_errors: true

@@ -1,0 +1,42 @@
+---
+- name: install apache2 and vsftpd packages
+  hosts: all
+  become: yes
+  become_user: root
+  gather_facts: no
+ 
+  tasks:
+  - name: install apache2
+    apt:
+     name: apache2
+     state: present
+
+  - name: install vsftpd
+    apt:
+      name: vsftpd
+      state: present
+    notify: start vsftpd service
+     
+  - name: copy index page
+    copy:
+      src: index.html
+      dest: /var/www/html
+    notify: restart apache
+    
+
+  #- name: start vsftpd package
+   # service: 
+    #   name: vsftpd
+     #  state: started
+     
+ 
+  handlers:
+     - name: restart apache
+       service: 
+         name: apache2
+         state: restarted
+       
+     - name: start vsftpd service
+       service:
+         name: vsftpd
+         state: started

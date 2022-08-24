@@ -1,0 +1,8 @@
+package:
+         # - ntp
+           - apache2
+           #- vsftpd
+service:
+          # - ntp.service
+           - apache2
+          # - vsftpd
