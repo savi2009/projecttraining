@@ -1,0 +1,40 @@
+Ansible Playbook
+
+-Ad-hoc commands
+-Create and execute 
+
+
+
+gather_facts
+ignore_errors
+
+handlers:-  
+  notify 
+
+
+tags:
+
+  ansible-playbook  apache.yml --list-tags
+  ansible-playbook  apache.yml -t i-apache2
+  ansible-playbook  apache.yml -t i-apache2 -K
+  ansible-playbook  apache.yml --skip-tags i-apache2 -K
+  ansible-playbook  apache.yml --start-at 'copy' -K
+ 
+
+
+
+Variables:-
+    Variables act as a container; can hold any value
+    can be used for repeatative activities
+
+  varible names:
+   ansibls has module vars for defining vaiables
+   vars:
+     
+  - varible names can contain alphabets, numbers and underscore
+      - can't have spaces,.,-
+
+ ansible-playbook vari.yaml -e "package=mysql service=mysql" -K
+
+
+
