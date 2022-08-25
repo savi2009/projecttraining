@@ -1,0 +1,57 @@
+
+on windows client
+steps to follow
+A.Create a user
+   ubuntu 
+   password >> redhat 
+   make this user administrator
+
+
+B. open powershell with admin
+to verify powershell version
+  Get-Host | Select-Object Version
+
+
+to verify .NET version
+Get-ChildItem 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP' -Recurse | Get-ItemProperty -Name version -EA 0 | Where { $_.PSChildName -Match '^(?!S)\p{L}'} | Select PSChildName, version
+
+
+To verify winrm if its installed
+winrm get winrm/config/Service
+
+
+C.TO setup WinRM
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+$url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
+
+$file = "$env:temp\ConfigureRemotingForAnsible.ps1"
+
+(New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
+
+powershell.exe -ExecutionPolicy ByPass -File $file
+
+To Verify WinRM configured
+
+winrm get winrm/config/Service
+winrm get winrm/config/Winrs
+winrm enumerate winrm/config/Listener
+
+
+
+on ansible host(controller)
+sudo apt install curl
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo apt install python3-pip
+sudo pip install pywinrm
+
+nano /etc/ansible/hosts
+[windows]
+192.168.233.137
+[windows:vars]
+ansible_user=ubuntu
+ansible_password=redhat
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_transport=basic
+ansible_winrm_server_cert_validation=ignore

@@ -1,0 +1,24 @@
+---
+- name: multi dir create
+  hosts: windows
+  
+  tasks:
+  - name: Create MT common folders
+    win_file: 
+            path: "{{ item }}"    
+            state: directory
+    loop:    
+        - C:\MultiTrans_Data
+        - C:\MultiTrans_Data\DocumentRepository
+        - C:\MultiTrans_Data\Logs
+        - C:\MultiTrans_Data\TextbaseCache
+        - C:\MultiTrans_Data\Textbases
+        - C:\Multitrans_Data\Archive
+        - C:\Flow_Data
+        - C:\Flow_Data\flowarchive_docs
+        - C:\Flow_Data\flow_docs
+        - C:\Flow_Data\flow_image_repo
+        - C:\Flow_Data\flow_provider_docs
+        - C:\Flow_Data\INVOICE_ROOT
+        - C:\Flow_Data\MAIL_QUEUE
+        - C:\Flow_Data\upload

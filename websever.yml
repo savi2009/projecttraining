@@ -1,0 +1,11 @@
+---
+- name: basic installation of web server
+  hosts: local
+  roles:
+    - basicinstall
+
+- name: full installtion of webservers
+  hosts: targets
+  roles:
+   - fullinstall
+

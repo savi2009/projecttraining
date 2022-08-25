@@ -1,0 +1,19 @@
+---
+- name: windows file copy
+  hosts: windows
+
+  tasks:
+#  - name: copy file
+ #   win_copy:
+  #   src: index.html
+   #  dest: c:\inetpub\wwwroot
+   
+#  - name: reset iis service
+ #   win_iis_website:
+  #   name: "Default Web site" 
+   #  state: started
+  
+
+   - name: Reboot a slow machine that might have lots of updates to apply
+     ansible.windows.win_reboot:
+       reboot_timeout: 3600

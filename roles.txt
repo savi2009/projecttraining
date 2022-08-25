@@ -1,0 +1,44 @@
+$cd /etc/ansible/roles
+$ansible-galaxy init webserver --offline
+#ls
+#tree webserver
+#nano webserver/tasks/main.yml
+---
+- name: install apache
+  apt:
+      name: apache2
+      state: present
+  notify:
+       -startapache   
+  
+   
+- name: copy file
+  copy:
+   src: index.html
+   dest: /var/www/html
+
+- name: start apache service
+  service: 
+     name: apache2
+     state: restarted
+
+save and exit
+
+make sure index.htmml is there in webserver/files
+
+webserver/handlers/main.yml
+---
+- name: startapache
+  service:
+  name: apache2
+  state: started
+save and exit
+
+cd webserver/roles
+$nano webserver.yml
+
+---
+- hosts: 
+  roles:
+   - webserver
+ 
