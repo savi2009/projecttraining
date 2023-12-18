@@ -125,6 +125,9 @@ To lists all the remotes that are configured
 $git remote -v
 
 
+buntu@s1:~/Desktop/dec23$ git push -d origin feature2
+To https://github.com/savi2009/dec23.git
+ - [deleted]         feature2
 
 
 
